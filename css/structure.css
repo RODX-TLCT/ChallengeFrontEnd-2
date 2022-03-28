@@ -10,7 +10,7 @@
     --colorBaseDark: #1f1f1f ;
     --colorBaseLight: #ffffff ;
     --colorBlue-1:#2A7AE4 ;
-    --colorBlue-2: #eaf2fd21;
+    --colorBlue-2: #EAF2FD;
 
     --font:'Source Sans Pro', sans-serif;
     --weighttitles: 600;
@@ -18,3 +18,19 @@
     --weightbody: 400;
 }
 
+/* structure */
+a{
+    text-decoration: none;
+}
+
+
+.footer{
+    background-color: var(--colorBlue-2);
+
+
+    display: flexbox;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
