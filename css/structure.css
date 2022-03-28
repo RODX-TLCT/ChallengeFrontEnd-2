@@ -1,0 +1,20 @@
+/* 
+    JonhDuranM y RODX
+    proyect - FrontEnd -2 
+    E-commerce AluraGeek 
+    
+    Document - css Structure
+*/
+
+:root{
+    --colorBaseDark: #1f1f1f ;
+    --colorBaseLight: #ffffff ;
+    --colorBlue-1:#2A7AE4 ;
+    --colorBlue-2: #eaf2fd21;
+
+    --font:'Source Sans Pro', sans-serif;
+    --weighttitles: 600;
+    --weightsubtitles: 300;
+    --weightbody: 400;
+}
+
