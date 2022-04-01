@@ -2,8 +2,6 @@
     JonhDuranM y RODX
     proyect - FrontEnd -2 
     E-commerce AluraGeek 
-    
-    Document - HTML index
  -->
 
 <!DOCTYPE html>
@@ -11,49 +9,48 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+        
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-        <link rel="stylesheet" href="css/reset.css" type="text/css">
-        <link rel="stylesheet" href="css/structure.css" type="text/css">
-        <link rel="stylesheet" href="css/style.css" type="text/css">
-        <link rel="stylesheet" href="css/style-product.css" type="text/css">
-        <link rel="stylesheet" href="css/style-login.css">
+
+        <link rel="stylesheet" href="assets/css/Structure/reset.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/Structure/structure.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/Structure/structure-barTop.css" type="text/css">
+
+
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
-
         <title>Document</title>
     </head>
     <body>
-        <header class="banner">
-            <div class="barTop">
-                <figure class="Cont_logo">
-                    <a href="index.html">
-                        <img src="" alt="" title="AluraGeek" class="logo">
-                    </a>
-                </figure>
-                <div class="barSearch">
-                    <input class="input-search" type="search">
-                    <button class="button button-search" type="submit">
-                        <img src="" alt="search" title="Buscar">
+        <header class="barTop">
+            <figure class="barLogo logoBanner">
+                <a href="index.html" title="AluraGeek" class="link_barLogo link">
+                    <img src="assets/img/logos/Logo.png" alt="AluraGeek logo">
+                </a>
+            </figure>
+            <div class="barTop-Items">
+                <div class="barTop-ItemsSearch">
+                    <input class="defaultInput input-search" type="search" placeholder="¿Qué deseas buscar?">
+                    <button class="defaultButton button-search" type="submit">
+                        <img src="assets/img/icons/795724.png" alt="search" title="Buscar">
                     </button>
                 </div>
-                <div class="profile">
-                    <button class="button button-login">Login</button>
-                    <button class="button button-register">Register</button>
+                <div class="barTop-Profile">
+                    <button class="defaultButton button-login">Login</button>
                 </div>
             </div>
         </header>
 
-        <section class="footer">
-            <div class="info-footer">
-                <figure class="Cont_logo Cont_logofooter">
+        <footer class="footer">
+            <div class="infoFooter">
+                <figure class="infoFooterlogo logofooter">
                     <a href="index.html">
                         <img src="" alt="" class="logofooter">
                     </a>
                 </figure>
-                <div class="Cont_listpages">
+                <div class="listPagesFooter">
                     <ul class="listpages">
                         <li class="page"><a href="#">Quienes somos</a></li>
                         <li class="page"><a href="#">Política de privacidad</a></li>
@@ -64,30 +61,30 @@
                     </ul>
                 </div>
             </div>
-            <fieldset>
-                <legend>hable con nosotros</legend>
-                <form action="" method="post">
-                    <input type="text" id="name">
-                    <textarea id="menssage" cols="30" rows="10"></textarea>
-                    <button type="submit">Enviar mensaje</button>
+            <fieldset class="Cont_formFooter">
+                <legend class="legendFormFooter">hable con nosotros</legend>
+                <form action="" class="formFooter">
+                    <input class="defaultInput" id="name" type="text">
+                    <textarea class="menssageFormFooter" id="menssage" cols="30" rows="10"></textarea>
+                    <button class="defaultButton button-submit" type="submit">Enviar mensaje</button>
                 </form>
             </fieldset>
-            <footer>
-                <p class="text">Desarrollado por</p>
-                <figure class="profiles-github RODX">
-                    <a href="https://github.com/XerT64Er">
-                        <img src="https://avatars.githubusercontent.com/u/68974206?v=4" alt="perfil RODX-TLCT" title="RODX-TLCT" class="profile-JonhDuranM"> 
+            <div class="barbottom">
+                <p class="barBottomText">Desarrollado por</p>
+                <figure class="barBottomProfiles-github RODX">
+                    <a href="https://github.com/XerT64Er" class="link-RODX link">
+                        <img src="https://avatars.githubusercontent.com/u/68974206?v=4" alt="perfil RODX-TLCT" title="RODX-TLCT" class="profile"> 
                         <span class="name-colaborator">RODX TLCT</span>
                     </a>
                 </figure>
-                <figure class="profiles-github JonhDuranM">
-                    <a href="https://github.com/JohnDuranM">
-                        <img src="https://avatars.githubusercontent.com/u/91157723?v=4" alt="perfil JonhDuranM" title="JonhDuranM" class="profile-JonhDuranM">
-                    <span class="name-colaborator">JohnDuranM</span>
+                <figure class="barBottomProfiles-github JonhDuranM">
+                    <a href="https://github.com/JohnDuranM" class="link-JonhDuranM link">
+                        <img src="https://avatars.githubusercontent.com/u/91157723?v=4" alt="perfil JonhDuranM" title="JonhDuranM" class="profile">
+                        <span class="name-colaborator">JohnDuranM</span>
                     </a>
                 </figure>
-            </footer>
-        </section>
+            </div>
+        </footer>
 
         <script src=""></script>
 

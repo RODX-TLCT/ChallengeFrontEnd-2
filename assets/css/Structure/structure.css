@@ -1,0 +1,31 @@
+/*   
+    JonhDuranM y RODX
+    proyect - FrontEnd -2 
+    E-commerce AluraGeek 
+*/
+
+:root{
+
+    /* colors */
+    --ColorBaseDark: #181818;
+    --colorBaseMedium: #5f5f5f;
+    --colorBaselight: #f5f5f5;
+    --colorPrimary: #2A7AE4;
+    --colorSecondary: #EAF2FD; 
+
+    /* defaults */
+    
+    --input-button-SizeH: 40px;
+    --fontW-Title1: 4rem;
+    --fontW-Title2: 3rem;
+    --fontW-Subtitles: 2.5rem
+    
+}
+
+body{
+    color: #e5e5e5;
+}
+
+.defaultInput, .defaultButton{
+    height: var(--input-button-SizeH);
+}

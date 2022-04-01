@@ -1,0 +1,71 @@
+/*   
+    JonhDuranM y RODX
+    proyect - FrontEnd -2 
+    E-commerce AluraGeek 
+*/
+
+.barTop{
+    padding: 2rem 10%;
+    display: flex;
+    align-items: center;
+}
+
+.barLogo{
+    padding:0 2rem ;
+    width: 20%;
+}
+
+.barLogo .link_barLogo img{
+    width: 100%;
+}
+
+.barTop-Items{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.barTop-ItemsSearch{
+    width: 40%;
+    display: flex;
+}
+
+.input-search{
+    padding-left: 1.5rem;
+    width: 80%;
+    background-color: var(--colorBaselight);
+    border: none;
+    border-radius: 50px 0 0 50px;
+    color: #18181883;
+    outline: none;
+}
+
+.button-search {
+    width: 20%;
+    background-color: var(--colorBaselight);
+    border: none;
+    border-left: none ;
+    border-radius: 0 50px 50px 0;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-search img{
+    width:30%;
+    opacity: 30%;
+    padding: 1rem;
+}
+
+.barTop-Profile{
+    width: 15%;
+}
+
+.button-login{
+    width: 100%;
+    background-color: white;
+    border: var(--colorPrimary) solid 1px;
+    color: var(--colorPrimary);
+}
