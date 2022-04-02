@@ -16,16 +16,24 @@
     /* defaults */
     
     --input-button-SizeH: 40px;
+    --font:'Source Sans Pro', sans-serif;;
     --fontW-Title1: 4rem;
     --fontW-Title2: 3rem;
     --fontW-Subtitles: 2.5rem
     
+
 }
 
 body{
+    font-family: var(--font);
     color: #e5e5e5;
+}
+.link{
+    text-decoration: none;
+    color: var(--colorBaseMedium);
 }
 
 .defaultInput, .defaultButton{
     height: var(--input-button-SizeH);
+    border: none;
 }

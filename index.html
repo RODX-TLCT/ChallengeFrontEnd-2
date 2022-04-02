@@ -15,8 +15,7 @@
         <link rel="stylesheet" href="assets/css/Structure/reset.css" type="text/css">
         <link rel="stylesheet" href="assets/css/Structure/structure.css" type="text/css">
         <link rel="stylesheet" href="assets/css/Structure/structure-barTop.css" type="text/css">
-
-
+        <link rel="stylesheet" href="assets/css/Structure/structure-footer.css" type="text/css"
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,7 +26,7 @@
         <header class="barTop">
             <figure class="barLogo logoBanner">
                 <a href="index.html" title="AluraGeek" class="link_barLogo link">
-                    <img src="assets/img/logos/Logo.png" alt="AluraGeek logo">
+                    <img src="assets/img/logos/Logo.png" alt="AluraGeek logo" class="logo logoBanner">
                 </a>
             </figure>
             <div class="barTop-Items">
@@ -43,47 +42,44 @@
             </div>
         </header>
 
-        <footer class="footer">
-            <div class="infoFooter">
-                <figure class="infoFooterlogo logofooter">
-                    <a href="index.html">
-                        <img src="" alt="" class="logofooter">
-                    </a>
-                </figure>
-                <div class="listPagesFooter">
-                    <ul class="listpages">
-                        <li class="page"><a href="#">Quienes somos</a></li>
-                        <li class="page"><a href="#">Política de privacidad</a></li>
-                        <li class="page"><a href="#">Programa de Fidelización</a></li>
-                        <li class="page"><a href="#">Nuestras Tiendas</a></li>
-                        <li class="page"><a href="#">Quiero ser franquiciado</a></li>
-                        <li class="page"><a href="#">Anúncie aquí</a></li>
-                    </ul>
-                </div>
+        <section class="footer">
+            <figure class="infoFooterlogo logofooter">
+                <a href="index.html" title="AluraGeek" class="link_barLogo link">
+                    <img src="assets/img/logos/Logo.png" alt="AluraGeek logo" class="logo logoFooter">
+                </a>
+            </figure>
+            <div class="listPagesFooter">
+                <ul class="listpages">
+                    <li class="page"><a href="#" class="link_ListPages link">Quienes somos</a></li>
+                    <li class="page"><a href="#" class="link_ListPages link">Política de privacidad</a></li>
+                    <li class="page"><a href="#" class="link_ListPages link">Programa de Fidelización</a></li>
+                    <li class="page"><a href="#" class="link_ListPages link">Nuestras Tiendas</a></li>
+                    <li class="page"><a href="#" class="link_ListPages link">Quiero ser franquiciado</a></li>
+                    <li class="page"><a href="#" class="link_ListPages link">Anúncie aquí</a></li>
+                </ul>
             </div>
             <fieldset class="Cont_formFooter">
-                <legend class="legendFormFooter">hable con nosotros</legend>
+                <legend class="legendFormFooter">Hable con nosotros</legend>
                 <form action="" class="formFooter">
-                    <input class="defaultInput" id="name" type="text">
-                    <textarea class="menssageFormFooter" id="menssage" cols="30" rows="10"></textarea>
+                    <div class="formName">
+                        <label class="label-defaultInput" for="name">Nombre</label>
+                        <input class="defaultInput" id="name" type="text" >
+                    </div>
+                    <textarea class="menssageFormFooter" id="menssage" cols="30" rows="10" placeholder="Escribe tu mensaje"></textarea>
                     <button class="defaultButton button-submit" type="submit">Enviar mensaje</button>
                 </form>
             </fieldset>
-            <div class="barbottom">
-                <p class="barBottomText">Desarrollado por</p>
-                <figure class="barBottomProfiles-github RODX">
-                    <a href="https://github.com/XerT64Er" class="link-RODX link">
-                        <img src="https://avatars.githubusercontent.com/u/68974206?v=4" alt="perfil RODX-TLCT" title="RODX-TLCT" class="profile"> 
-                        <span class="name-colaborator">RODX TLCT</span>
-                    </a>
-                </figure>
-                <figure class="barBottomProfiles-github JonhDuranM">
-                    <a href="https://github.com/JohnDuranM" class="link-JonhDuranM link">
-                        <img src="https://avatars.githubusercontent.com/u/91157723?v=4" alt="perfil JonhDuranM" title="JonhDuranM" class="profile">
-                        <span class="name-colaborator">JohnDuranM</span>
-                    </a>
-                </figure>
-            </div>
+        </section>
+        <footer class="barBottom">
+            <a href="https://github.com/XerT64Er" class="link-RODX link">
+                <img src="https://avatars.githubusercontent.com/u/68974206?v=4" alt="perfil RODX-TLCT" title="RODX-TLCT" class="profile"> 
+                <span class="name-colaborator">RODX TLCT</span>
+            </a>
+            <span class="barBottomText">Desarrollado por</span>
+            <a href="https://github.com/JohnDuranM" class="link-JonhDuranM link">
+                <img src="https://avatars.githubusercontent.com/u/91157723?v=4" alt="perfil JonhDuranM" title="JonhDuranM" class="profile">
+                <span class="name-colaborator">JohnDuranM</span>
+            </a>
         </footer>
 
         <script src=""></script>

@@ -1,0 +1,93 @@
+.footer{
+    padding: 4rem 0;
+    display: flex;
+    background-color: var(--colorSecondary);
+    justify-content: space-evenly;
+}
+
+.infoFooterlogo{
+    width: 15%;
+}
+
+.infoFooterlogo img {
+    width: 100%;
+}
+
+.listPagesFooter{
+    width: 20%;
+    display: flex;
+}
+
+.page{
+    padding: 0.8rem 0;
+}
+
+.formFooter{
+    color: var(--ColorBasemedium);
+}
+
+.legendFormFooter{
+    color: #575757;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.formName{
+    width: 100%;
+    background-color: white;
+    border: #575757 solid 1px;
+}
+
+.label-defaultInput{
+    padding-left: 1rem;
+    color: #9e9d9d;
+}
+
+.defaultInput{
+    border:none ;
+    width: 98%;
+    outline: none;
+}
+
+ .menssageFormFooter{
+    width: 98%;
+    height: 80px;
+    font-family: var(--font);
+    margin-top: 0.8rem;
+    outline: none;
+}
+
+.button-submit{
+    width: 40%;
+    height: 50px;
+    color: white;
+    background-color: var(--colorPrimary);
+    margin-top: 1rem;
+}
+
+.barBottom {
+    width: 100%;
+    text-align: center;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.barBottomText{
+    color: var(--colorBaseMedium);
+    font-size: 1.25rem ;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-JonhDuranM, .link-RODX{
+    margin: 2rem;
+}
+
+.profile { 
+    display: flex;
+    width: 70px;
+    border-radius: 100%;
+}
