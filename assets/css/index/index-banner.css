@@ -1,0 +1,32 @@
+.banner{
+    height: 45vh;
+    background: url("../../img/Banners/geeky-shots-hQ4BQ3wdHsQ-unsplash_m_auto_x2_colored_toned_light_ai.jpg") no-repeat center 45%;
+    background-size: cover; 
+}
+
+.bannerItems{
+    padding: 0 1.5rem;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.banner-title{
+    font-size: var(--fontW-Title1);
+    font-weight: 700;
+    margin-bottom: .75rem;
+}
+
+.banner-text{
+    font-size: var(--fontW-Subtitles);
+    font-weight: 600;
+    margin-bottom: .75rem;
+}
+
+.banner-button{
+    width: 8%;
+    color: #FFF;
+    background-color: var(--colorPrimary);
+    margin-bottom: 1.5rem;
+}
