@@ -10,8 +10,11 @@
     --ColorBaseDark: #181818;
     --colorBaseMedium: #5f5f5f;
     --colorBaselight: #f5f5f5;
+    --colorBaseLight-2: #e5e5e5;
+
     --colorPrimary: #2A7AE4;
     --colorSecondary: #EAF2FD; 
+
 
     /* defaults */
     
@@ -19,14 +22,12 @@
     --font:'Source Sans Pro', sans-serif;;
     --fontW-Title1: 2.5rem;
     --fontW-Title2: 2rem;
-    --fontW-Subtitles: 1.5rem
-    
-
+    --fontW-Subtitles: 1.5rem;
 }
 
 body{
     font-family: var(--font);
-    color: #e5e5e5;
+    color: var(--colorBaseMedium);
 }
 .link{
     text-decoration: none;

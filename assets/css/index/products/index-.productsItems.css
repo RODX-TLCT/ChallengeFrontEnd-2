@@ -1,0 +1,20 @@
+.product{
+    width: 15%;
+    
+    display: flex;
+    flex-direction: column;
+
+}
+
+.imgProduct .imgProduct-default{
+    width: 100%;
+}
+
+.priceProduct{
+    font-weight: 700;
+}
+
+.linkProduct{
+    color: var(--colorPrimary);
+    font-weight: 700;
+}

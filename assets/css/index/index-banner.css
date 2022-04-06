@@ -2,10 +2,11 @@
     height: 45vh;
     background: url("../../img/Banners/geeky-shots-hQ4BQ3wdHsQ-unsplash_m_auto_x2_colored_toned_light_ai.jpg") no-repeat center 45%;
     background-size: cover; 
+    color: var(--colorBaseLight-2)
 }
 
 .bannerItems{
-    padding: 0 1.5rem;
+    padding: 0 10rem;
     height: 45vh;
     display: flex;
     flex-direction: column;
