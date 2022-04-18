@@ -1,0 +1,46 @@
+.Cont__viewerProduct{
+
+    display: flex;
+    flex-flow: row wrap;
+    padding: 2rem 10rem;
+    height: 60%;
+}
+
+.image__viewerProduct{
+    align-items: center;
+    display: flex;
+    height: 400px;
+    margin-right: 1rem;
+    overflow: hidden;
+    width: calc(50% - 1rem);
+}
+
+.imageProductCard{
+    width: 100%;
+}
+
+.cart__viewerProduct{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    width: calc(50% - 1rem);
+
+}
+
+.titleCard{
+    font-size: var(--fontW-Title1);
+    padding-bottom: 1rem;
+    width: 100%;
+}
+
+.priceCard{
+    font-weight: 700;
+    width: 100%;
+}
+
+.paragraphCard{
+    text-align: justify;
+    padding-top: 1rem;
+    width: 100%;
+}

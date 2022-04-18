@@ -1,8 +1,11 @@
-<!--   
+<!-- 
     JonhDuranM y RODX
     proyect - FrontEnd -2 
     E-commerce AluraGeek 
- -->
+    
+    Document - HTML product
+-->
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -11,14 +14,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-        
+
         <link rel="stylesheet" href="assets/css/Structure/reset.css" type="text/css">
         <link rel="stylesheet" href="assets/css/Structure/structure.css" type="text/css">
         <link rel="stylesheet" href="assets/css/Structure/structure-barTop.css" type="text/css">
         <link rel="stylesheet" href="assets/css/Structure/structure-footer.css" type="text/css">
         <link rel="stylesheet" href="assets/css/Structure/structure-productsItems.css" type="text/css">
         <link rel="stylesheet" href="assets/css/Structure/structure-typeProduct.css" type="text/css">
-        <link rel="stylesheet" href="assets/css/index/index-banner.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/cardProduct/cardProduct_viewrProduct.css" type="text/css">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,11 +30,11 @@
     </head>
     <body>
         <header class="barTop">
-            <div class="barLogo logoBanner">
+            <figure class="barLogo logoBanner">
                 <a href="index.html" title="AluraGeek" class="link_barLogo link">
                     <img src="assets/img/logos/Logo.png" alt="AluraGeek logo" class="logo logoBanner">
                 </a>
-            </div>
+            </figure>
             <div class="barTop-Items">
                 <div class="barTop-ItemsSearch">
                     <input class="defaultInput input-search" type="search" placeholder="¿Qué deseas buscar?">
@@ -45,24 +48,22 @@
             </div>
         </header>
 
-        <section class="banner">
-            <div class="bannerItems">
-                <h2 class="banner-title">Febrero Promocional</h2>
-                <p class="banner-text">Productos seleccionados con 33% de descuento</p>
-                <button class="banner-button defaultButton">
-                    <a class="link" href="products.html">Ver Consolas</a>
-                </button>
+        <section class="Cont__viewerProduct">
+            <figure class="image__viewerProduct">
+                <img class="imageProductCard" src="assets/img/products/Tudo/1-1-StarWars.png" alt="productoXYZ">
+            </figure>
+            <div class="cart__viewerProduct">
+                <h2 class="titleCard">ProductoXYZ</h2>
+                <span class="priceCard">$60.00</span>
+                <p class="paragraphCard">Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam</p>
             </div>
         </section>
 
-        <section class="Cont_typeProduct">
 
-            <div class="typeProduct" id="StarWars">
+        <section class="Cont__suggestion">
+            <div class="typeProduct" id="suggestion">
                 <div class="Cont_titleTypeProduct">
-                    <h2 class="titleTypeProduct">StarWars</h2>
-                    <a class="link" href=""> 
-                        <span class="ViewtypeProduct">Ver más ▶</span>
-                    </a>
+                    <h2 class="titleTypeProduct">Productos Similares</h2>
                 </div>
                 <div class="product">
                     <figure class="imgProduct">
@@ -130,155 +131,6 @@
                     </a>
                 </div>
             </div>
-
-            <div class="typeProduct" id="Consolas">
-                <div class="Cont_titleTypeProduct">
-                    <h2 class="titleTypeProduct">Consolas</h2>
-                    <a class="link" href=""> 
-                        <span class="ViewtypeProduct">Ver más ▶</span>
-                    </a>
-                </div>
-                <div class="product">
-                    <figure class="imgProduct">
-                        <img class="imgProduct-default C1"  src="assets/img/products/Tudo/2-1-Consolas.png" alt="">
-                    </figure>
-                    <h3 class="titleProduct">productoXYZ</h3>
-                    <span class="priceProduct">$60.00</span>
-                    <a href="Cardproduct.html" class="link">
-                        <span class="linkProduct">Ver producto</span>
-                    </a>
-                </div>
-
-                <div class="product">
-                    <figure class="imgProduct">
-                        <img class="imgProduct-default C2"  src="assets/img/products/Tudo/2-2-Consolas.png" alt="">
-                    </figure>
-                    <h3 class="titleProduct">productoXYZ</h3>
-                    <span class="priceProduct">$60.00</span>
-                    <a href="Cardproduct.html" class="link">
-                        <span class="linkProduct">Ver producto</span>
-                    </a>
-                </div>
-
-                <div class="product">
-                    <figure class="imgProduct">
-                        <img class="imgProduct-default C3"  src="assets/img/products/Tudo/2-3-Consolas.png" alt="">
-                    </figure>
-                    <h3 class="titleProduct">productoXYZ</h3>
-                    <span class="priceProduct">$60.00</span>
-                    <a href="Cardproduct.html" class="link">
-                        <span class="linkProduct">Ver producto</span>
-                    </a>
-                </div>
-
-                <div class="product">
-                    <figure class="imgProduct">
-                        <img class="imgProduct-default C4"  src="assets/img/products/Tudo/2-4-Consolas.png" alt="">
-                    </figure>
-                    <h3 class="titleProduct">productoXYZ</h3>
-                    <span class="priceProduct">$60.00</span>
-                    <a href="Cardproduct.html" class="link">
-                        <span class="linkProduct">Ver producto</span>
-                    </a>
-                </div>
-
-                <div class="product">
-                    <figure class="imgProduct">
-                        <img class="imgProduct-default C5"  src="assets/img/products/Tudo/2-5-Consolas.png" alt="">
-                    </figure>
-                    <h3 class="titleProduct">productoXYZ</h3>
-                    <span class="priceProduct">$60.00</span>
-                    <a href="Cardproduct.html" class="link">
-                        <span class="linkProduct">Ver producto</span>
-                    </a>
-                </div>
-
-                <div class="product">
-                    <figure class="imgProduct">
-                        <img class="imgProduct-default C6"  src="assets/img/products/Tudo/2-6-Consolas.png" alt="">
-                    </figure>
-                    <h3 class="titleProduct">productoXYZ</h3>
-                    <span class="priceProduct">$60.00</span>
-                    <a href="" class="link">
-                        <span class="linkProduct">Ver producto</span>
-                    </a>
-                </div>
-            </div>
-
-            <div class="typeProduct" id="Diversos">
-                <div class="Cont_titleTypeProduct">
-                    <h2 class="titleTypeProduct">Diversos</h2>
-                    <a class="link" href=""> 
-                        <span class="ViewtypeProduct">Ver más ▶</span>
-                    </a>
-                </div>
-                <div class="product">
-                    <figure class="imgProduct">
-                        <img class="imgProduct-default D1"  src="assets/img/products/Tudo/3-1-Diversos.png" alt="">
-                    </figure>
-                    <h3 class="titleProduct">productoXYZ</h3>
-                    <span class="priceProduct">$60.00</span>
-                    <a href="Cardproduct.html" class="link">
-                        <span class="linkProduct">Ver producto</span>
-                    </a>
-                </div>
-
-                <div class="product">
-                    <figure class="imgProduct">
-                        <img class="imgProduct-default D2"  src="assets/img/products/Tudo/3-2-Diversos.png" alt="">
-                    </figure>
-                    <h3 class="titleProduct">productoXYZ</h3>
-                    <span class="priceProduct">$60.00</span>
-                    <a href="Cardproduct.html" class="link">
-                        <span class="linkProduct">Ver producto</span>
-                    </a>
-                </div>
-
-                <div class="product">
-                    <figure class="imgProduct">
-                        <img class="imgProduct-default D3"  src="assets/img/products/Tudo/3-3-Diversos.png" alt="">
-                    </figure>
-                    <h3 class="titleProduct">productoXYZ</h3>
-                    <span class="priceProduct">$60.00</span>
-                    <a href="Cardproduct.html" class="link">
-                        <span class="linkProduct">Ver producto</span>
-                    </a>
-                </div>
-
-                <div class="product">
-                    <figure class="imgProduct">
-                        <img class="imgProduct-default D4"  src="assets/img/products/Tudo/3-4-Diversos.png" alt="">
-                    </figure>
-                    <h3 class="titleProduct">productoXYZ</h3>
-                    <span class="priceProduct">$60.00</span>
-                    <a href="Cardproduct.html" class="link">
-                        <span class="linkProduct">Ver producto</span>
-                    </a>
-                </div>
-
-                <div class="product">
-                    <figure class="imgProduct">
-                        <img class="imgProduct-default D5"  src="assets/img/products/Tudo/3-5-Diversos.png" alt="">
-                    </figure>
-                    <h3 class="titleProduct">productoXYZ</h3>
-                    <span class="priceProduct">$60.00</span>
-                    <a href="Cardproduct.html" class="link">
-                        <span class="linkProduct">Ver producto</span>
-                    </a>
-                </div>
-
-                <div class="product">
-                    <figure class="imgProduct">
-                        <img class="imgProduct-default D6"  src="assets/img/products/Tudo/3-6-Diversos.png" alt="">
-                    </figure>
-                    <h3 class="titleProduct">productoXYZ</h3>
-                    <span class="priceProduct">$60.00</span>
-                    <a href="Cardproduct.html" class="link">
-                        <span class="linkProduct">Ver producto</span>
-                    </a>
-                </div>
-            </div>
-
         </section>
 
         <section class="footer">

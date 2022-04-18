@@ -1,0 +1,22 @@
+.Cont__titleProducts{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 10rem;
+}
+
+.titleProducts{
+    color: var(--ColorBaseDark);
+    font-size: var(--fontW-Title1);
+    font-weight: 700;
+}
+
+.buttonProducts{
+    width: 11%;
+    background-color: var(--colorPrimary);
+    margin-bottom: 1.5rem;
+}
+
+.buttonProducts .link{
+    color: #FFF;
+}

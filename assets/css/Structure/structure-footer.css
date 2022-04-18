@@ -1,8 +1,8 @@
 .footer{
-    padding: 4rem 0;
     display: flex;
     background-color: var(--colorSecondary);
     justify-content: space-evenly;
+    padding: 4rem 0;
 }
 
 .infoFooterlogo{
@@ -70,11 +70,11 @@
 }
 
 .barBottom {
-    width: 100%;
-    text-align: center;
-
+    background-color: white;
     display: flex;
     justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
 }
 
 .barBottomText{
